@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/webGames/styles/frogger.css">
+</head>
+<body>
+    <h1><a href="webGames.html#home">Games</a></h1>
+    
+  <div class = "game">
+    <h3 id = "level"> Level: 1</h3><h3 id="fail"> Lives: 3</h3>
+  </div>
+
+    <button id = "btn" class = "noshow">Play Again!</button>
+    <br>
+    <canvas width="600px" height="600px"></canvas>
+
+<div class = "pictures">
+  <div id = "carFastest">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+  </div>
+  <div id = "carFast">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+
+  </div>
+  <div id = "carMedium">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+
+  </div>
+  <div id = "carSlow">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+    <img src="/webGames/images/car.png" class="noshow"  alt="Car">
+
+  </div>
+  <img id="frog" src="/webGames/images/frogsmall.png" class="noshow" width="50px" height="50px" alt="Frog">
+  </div>
+  <h2>Directions:</h2>
+        <ul>
+            <li>Arrow Up key - moves Frog Up</li>
+            <li>Arrow Down key - moves Frog Down</li>
+            <li>Arrow Left key - moves Frog Left</li>
+            <li>Arrow Right key - moves Frog Right</li>
+        </ul>
+  <script src="/webGames/scripts/car.js"></script>
+  <script src="/webGames/scripts/frogger.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="/webGames/styles/homePage.css">
+</head>
+<body>
+    <h1><a name = "home">Games</a></h1>
+    <nav>
+        <ul>
+            <li><a href="#Frogger">Frogger</a></li>
+            <li><a href="#TTT">Tic-Tac-Toe</a></li>
+            <li><a href="#snake">Tetris</a></li>
+            <li><a href="#atari">Atari</a></li>
+            <li><a href="#2048">2048</a></li>
+        </ul>
+    </nav>
+    <hr>
+
+    <a name="Frogger"></a>
+    <h3>Frogger</h3>
+    <!--Screen shot of game-->
+    <div class = "flex">
+        <div class = "play">
+            <a href="/webGames/weGames/frogger.html"><img src="/webGames/images/frog.png" alt="froggerScreenshot"></a>
+            <br>
+            <a href="/webGames/weGames/frogger.html">Play Frogger!</a>
+        </div>
+        <!--Description of game-->
+        <h5>Pass Through the chaotic streets as a frog. You only have a limited 
+            life time of 3. Take your chances to reach to the finish line.
+            <br>
+            <br>
+            Created by an array of cars and a moving image of a frog. Once the frog is fully hit by the Car you have lost a life.
+            You only have 3 lives until it asks you to play again. 
+            
+        </h5>
+        
+    </div>
+
+    <a name="TTT"></a>
+    <h3>Tic-Tac-Toe</h3>
+    <!--Screen shot of game-->
+    <div class = "flex">
+        <div class = "play">
+            <a href="/webGames/weGames/TTT.html"><img src="/webGames/images/ttt.png" alt="Tic-Tac-ToeScreenshot"></a>
+            <br>
+            <a href="/webGames/weGames/TTT.html">Play Tic-Tac-Toe</a>
+        </div>  
+        <!--Description of game-->
+        <h5>The Classic Game of Tic-Tac-Toe. Go against the computer and try to win as much as possible. 
+            <br><br> Created by a a Grid Container and an Array to hold the values. Uses a simple if else statements to check 
+            if there is a winner or a loser. If there is no winner or loser by 9 moves then it is a tie.
+        </h5>
+    </div>
+    <a name="snake"></a>
+
+    <h3 >Snake</h3>
+    <!--Screen shot of game-->
+    <div class = "flex">
+        <div class = "play">
+            <img src="/webGames/images/snake.png" alt="Snake Screenshot">
+            <br>
+            <a href="/webGames/weGames/snake.html">Play Snake!</a>
+        </div>
+        <!--Description of game-->
+        <h5>Play as a snake and find your apple! Try to beat your highest score!
+            <br><br>  
+            This game is created by classes and function. This Important variables used include the score, snake object, and the set interval.  </h5>
+    </div>
+    <a name="atari"></a>
+
+    <h3>Breakout</h3>
+    <!--Screen shot of game-->
+    <div class = "flex">
+        <div class = "play">
+            <a href="/webGames/weGames/breakout.html"><img src="/webGames/images/breakout.png" alt="Breakout Screenshot"></a> 
+            <br>
+            <a href="/webGames/weGames/breakout.html">Play 2048</a> 
+        </div>
+        <!--Description of game-->
+        <h5>Simple Breakout Game. Break the blocks to get through and don't let the ball pass the paddle or you will lose!
+            <br><br>
+            Created by an array of class Block, a moving ball, and a paddle. The ball is the only constant moving object and the paddle will only move when the user presses left or right arrows.
+        </h5>
+    </div>
+    <a name="2048"></a>
+    <h3>2048</h3>
+    <!--Screen shot of game-->
+    <div class = "flex">
+        <div class = "play">
+            <a href="/webGames/weGames/2048.html"><img src="/webGames/images/2048.png" alt="2048 Screenshot"></a>
+            <br>
+            <a href="/webGames/weGames/2048.html">Play 2048</a>        </div>
+        <!--Description of game-->
+        <h5>Add as much cells of the same kind to reach the highest cell of 2048!
+            And don't fill up the board with random cells.
+            <br><br>
+            Created by a 2d array and a grid container. Uses for loops and if else 
+            statements to check if there is cells of the same kind or if there is 
+            an empty space that is available to move into. Once the board is filled
+            it checks if there are any cells to be paired, if there are none GameOver.
+        </h5>
+    </div>
+</body>
+</html>

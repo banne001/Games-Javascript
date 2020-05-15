@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    margin: 40px;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+div h3{
+    display: inline-block;
+    padding: 10px;
+}
+
+.grid-container {
+    border-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: blanchedalmond;
+    padding: 10px;
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+.border{
+    border: 5px solid red; 
+}
+li{
+    list-style-type: none;
+}

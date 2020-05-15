@@ -1,0 +1,39 @@
+.grid-container {
+    border-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+    background-color: pink;
+    padding: 10px;
+    width: 420px;
+    height: 420px;
+    margin: auto;
+
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    line-height: 350%;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+body{
+    text-align: center;
+    margin: 40px;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+div h3{
+    display: inline-block;
+    padding: 10px;
+}
+
+li{
+    list-style-type: none;
+}
